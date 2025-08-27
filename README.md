@@ -1,1 +1,0 @@
-# gwpicnicquiz.github.io
