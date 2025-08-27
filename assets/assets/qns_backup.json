@@ -1,0 +1,157 @@
+{
+    "questions": [
+        {
+            "id": 0,
+            "qn": "You're picking a movie with your friends. How do you decide?",
+            "choices": [
+                {
+                    "text": "Skim reviews, check trailers, make a shortlist.",
+                    "scores": [4, 4, -1, 2, 1, -2, 4],
+                    "next": 1
+                },
+                {
+                    "text": "\"Anything's fine!\" you say, you just go by vibes",
+                    "scores": [0, -1, 4, 3, 4, 4, 0],
+                    "next": 1
+                }
+            ],
+            "image": "q1.webp"
+        },
+        {
+            "id": 1,
+            "qn": "It's almost time to go, but you're not ready yet. What's holding you up?",
+            "choices": [
+                {
+                    "text": "You're putting together snacks, tissues, and backup chargers. Juuuust in case.",
+                    "scores": [4, 2, 1, 2, 4, 0, 4],
+                    "next": 2
+                },
+                {
+                    "text": " I spent the time scrolling my phone and… 1 eternity later…",
+                    "scores": [-1, 3, 3, 3, 1, 4, -2],
+                    "next": 3
+                }
+            ],
+            "image": "q2.webp"
+        },
+        {
+            "id": 2,
+            "qn": "You leave early and arrive 15 minutes before showtime. What now?",
+            "choices": [
+                {
+                    "text": "Send step-by-step directions (with photos and arrows) to the group chat",
+                    "scores": [2, 1, 2, 1, 4, -1, 4],
+                    "next": 4
+                },
+                {
+                    "text": "Checkout that new store that just opened. The movie can wait.",
+                    "scores": [4, 2, 3, 4, 1, 4, 0],
+                    "next": 4
+                }
+            ],
+            "image": "q3a.webp"
+        },
+        {
+            "id": 3,
+            "qn": "You're running late and might miss the opening scene. What do you do?",
+            "choices": [
+                {
+                    "text": "Speed-walk muttering \"I'm Never Doing This Again\" (but you probably will).",
+                    "scores": [1, 2, 1, 1, 2, -1, 4],
+                    "next": 4
+                },
+                {
+                    "text": "Text your friends: \"Y'all should go in first 😢\" (then detour to buy a drink)",
+                    "scores": [2, 3, 4, 4, 3, 3, 0],
+                    "next": 4
+                }
+            ],
+            "image": "q3b.webp"
+        },
+        {
+            "id": 4,
+            "qn": "The trailers start running. What's your vibe?",
+            "choices": [
+                {
+                    "text": "Laser-focused. Trailers are part of the movie experience.",
+                    "scores": [3, 4, 1, 2, 2, -1, 3],
+                    "next": 5
+                },
+                {
+                    "text": "Pre-movie toilet break!",
+                    "scores": [1, 0, 4, 2, 3, 4, 2],
+                    "next": 5
+                }
+            ],
+            "image": "q4.webp"
+        },
+        {
+            "id": 5,
+            "qn": "The friend next to you is definitely whispering during a tense scene.",
+            "choices": [
+                {
+                    "text": "Silently hand them popcorn to keep them quiet.",
+                    "scores": [4, 3, 2, 4, 4, 1, 3],
+                    "next": 6
+                },
+                {
+                    "text": " Whisper back. Chaos accepts chaos.",
+                    "scores": [0, -1, 4, 1, 1, 4, -1],
+                    "next": 7
+                }
+            ],
+            "image": "q5.webp"
+        },
+        {
+            "id": 6,
+            "qn": "The movie just ended and your group is deciding where to go next.",
+            "choices": [
+                {
+                    "text": "Straight for the mall directory! You need to make an informed decision.",
+                    "scores": [3, 3, 0, 1, 2, -2, 4],
+                    "next": 8
+                },
+                {
+                    "text": "Anything goes! You're just happy to be there.",
+                    "scores": [1, 2, 4, 4, 4, 3, 1],
+                    "next": 8
+                }
+            ],
+            "image": "q6a.webp"
+        },
+        {
+            "id": 7,
+            "qn": "As the group splits up for some solo wandering, you spot a pop-up booth selling something unexpected.",
+            "choices": [
+                {
+                    "text": "Investigate immediately! Limited-time weird finds are your jam.",
+                    "scores": [4, 2, 3, 4, 1, 4, 2],
+                    "next": 8
+                },
+                {
+                    "text": "Text the group to see if anyone wants to check it out together.",
+                    "scores": [1, 3, 4, 2, 4, 1, 3],
+                    "next": 8
+                }
+            ],
+            "image": "q6b.webp"
+        },
+        {
+            "id": 8,
+            "qn": "On the way out, someone suggests taking a group photo to remember the day.",
+            "choices": [
+                {
+                    "text": "You pose with full commitment! Peace sign, silly face, the whole package.",
+                    "scores": [-1, -1, 4, 3, 4, 4, 2],
+                    "next": -1
+                },
+                {
+                    "text": "You join in, but subtly shift to the edge. Candid smiles are more your thing anyway.",
+                    "scores": [4, 4, 1, 2, 2, 0, 3],
+                    "next": -1
+                }
+            ],
+            "image": "q7.webp"
+        }
+    ]
+}
