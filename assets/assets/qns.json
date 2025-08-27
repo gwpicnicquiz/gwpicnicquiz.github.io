@@ -96,7 +96,7 @@
                 },
                 {
                     "text": " Whisper back. Chaos accepts chaos.",
-                    "scores": [0, 0, 1, 0, 1, 1, 1],
+                    "scores": [0, -10, 1, 0, 1, 1, 1],
                     "next": 7
                 }
             ],
