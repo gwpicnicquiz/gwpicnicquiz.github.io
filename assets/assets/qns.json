@@ -6,7 +6,7 @@
             "choices": [
                 {
                     "text": "Skim reviews, check trailers, make a shortlist.",
-                    "scores": [1, 1, 0, 0, 1, 0, 1],
+                    "scores": [1, 1, 0, 0, 1, -1, 1],
                     "next": 1
                 },
                 {
@@ -23,7 +23,7 @@
             "choices": [
                 {
                     "text": "You're putting together snacks, tissues, and backup chargers. Juuuust in case.",
-                    "scores": [1, 0, 0, 0, 1, 0, 1],
+                    "scores": [1, 0, 0, 0, 2, 0, 1],
                     "next": 2
                 },
                 {
@@ -74,7 +74,7 @@
             "choices": [
                 {
                     "text": "Laser-focused. Trailers are part of the movie experience.",
-                    "scores": [1, 0, 0, 0, 0, 0, 1],
+                    "scores": [2, 0, -10, 0, 0, 0, 1],
                     "next": 5
                 },
                 {
@@ -91,7 +91,7 @@
             "choices": [
                 {
                     "text": "Silently hand them popcorn to keep them quiet.",
-                    "scores": [1, 1, 0, 1, 0, 0, 0],
+                    "scores": [1, 1, 0, 1, 1, 0, 1],
                     "next": 6
                 },
                 {
@@ -142,12 +142,12 @@
             "choices": [
                 {
                     "text": "You pose with full commitment! Peace sign, silly face, the whole package.",
-                    "scores": [0, 0, 1, 0, 1, 1, 1],
+                    "scores": [-1, -1, 1, 0, 1, 1, 1],
                     "next": -1
                 },
                 {
                     "text": "You join in, but subtly shift to the edge. Candid smiles are more your thing anyway.",
-                    "scores": [1, 1, 0, 1, 0, 0, 0],
+                    "scores": [1, 1, 0, 1, 0, 0, -1],
                     "next": -1
                 }
             ],
